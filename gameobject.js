@@ -11,7 +11,7 @@ export default class GameObject {
 		this.y = args.y;
 
 		this.image = new Image();
-		this.image.src = "https://raw.githubusercontent.com/ihellino/bounce-game/master/public/img/" + args.imgName;
+		this.image.src = "https://raw.githubusercontent.com/ihellino/bounce-game-js/master/img/" + args.imgName;
 	}
 
 	static initializeObject(objSettings, row, col, tileSize ) {
