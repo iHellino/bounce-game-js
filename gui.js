@@ -19,7 +19,7 @@ export default class GUI {
 
     loadImage( img ) {
         let image = new Image();
-        image.src = "https://raw.githubusercontent.com/ihellino/bounce-game/master/public/gui/" + img;
+        image.src = "https://raw.githubusercontent.com/ihellino/bounce-game-js/master/gui/" + img;
         return image;
     }
 
