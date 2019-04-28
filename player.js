@@ -10,7 +10,7 @@ export default class Player extends GameObject {
 		this.winner = false;
 
 		this.imageDead = new Image();
-		this.imageDead.src = "https://raw.githubusercontent.com/ihellino/bounce-game/master/public/img/" + 'game_ball_pop.png';
+		this.imageDead.src = "https://raw.githubusercontent.com/ihellino/bounce-game-js/master/img/" + 'game_ball_pop.png';
 	}
 
 	update( gameObjects ) {
